@@ -70,6 +70,27 @@ def main():
         }
     }
 
+    selected_project = st.selectbox("Select a project", list(projects.keys()))
+    
+    # Display the description and content (image/video) of the selected project
+    if selected_project:
+        st.write(f"**{selected_project}:** {projects[selected_project]['description']}")
+        
+        # Show the image if available
+        if projects[selected_project]["image"]:
+            st.image(projects[selected_project]["image"], width=400)  
+
+        # Show the video if available
+        if projects[selected_project]["video"]:
+            st.video(projects[selected_project]["video"], format="video/mp4")
+
+
+
+
+
+
+
+    
     
     # Courses Section
     st.header("Courses")
