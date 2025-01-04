@@ -28,8 +28,8 @@ def main():
         "Software & Systems: Operating Systems, Computer Organization, Network Fundamentals",
         "Other: Technical Report Writing, Time Management, Multitasking"
     ]
-    selected_skills = st.multiselect("Select skills", skills)
-    st.write(f"You selected: {', '.join(selected_skills)}")
+  for skill in skills:
+        st.markdown(f"- {skill}")
     
     # Education Section
     st.header("Education")
