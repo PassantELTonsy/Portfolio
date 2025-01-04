@@ -20,7 +20,7 @@ def main():
         }
         </style>
         <div class="image-container">
-            <img src="photo_2025-01-03_12-05-21.jpg" width="100" />
+            <img src="https://github.com/PassantELTonsy/Portofolio/blob/767de99c48800820601060da0e3a4af5308fe42a/photo_2025-01-03_12-05-21.jpg" />
         </div>
         """, 
         unsafe_allow_html=True
