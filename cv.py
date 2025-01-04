@@ -28,9 +28,9 @@ def main():
         "Software & Systems: Operating Systems, Computer Organization, Network Fundamentals",
         "Other: Technical Report Writing, Time Management, Multitasking"
     ]
-    for skill in skills:
-        st.markdown(f"- {skill}")
-
+    selected_skills = st.multiselect("Select skills", skills)
+    st.write(f"You selected: {', '.join(selected_skills)}")
+    
     # Education Section
     st.header("Education")
     st.write("**Faculty of Engineering at Shoubra - Benha University**")
