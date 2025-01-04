@@ -11,7 +11,7 @@ import streamlit as st
 def main():
     st.set_page_config(page_title="Passant El-Tonsy - CV", page_icon=":briefcase:", layout="centered")
     image = "https://github.com/PassantELTonsy/Portofolio/blob/main/photo_2025-01-03_12-05-21.jpg"
-     st.markdown(
+    st.markdown(
         f'<div style="text-align: center;"><img src="{image}" style="border-radius: 50%; width: 100px; height: 100px;" /></div>',
         unsafe_allow_html=True
     )
