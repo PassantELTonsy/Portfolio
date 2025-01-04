@@ -13,7 +13,7 @@ def main():
     image_path = "photo_2025-01-03_12-05-21.jpg"
     print(image_path)
     st.markdown(
-        f"""
+        """
         <style>
             .circular-image {{
                 border-radius: 50%;
