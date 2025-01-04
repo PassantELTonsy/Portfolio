@@ -55,6 +55,7 @@ def main():
         "TALKIN’ HANDS": {
             "description": "Converts spoken Arabic into sign language glosses rendered through a 3D avatar.",
             "image":None
+            "video":None
         },
         "Optimized Flight Trip": {
             "description": "Applied AI algorithms to optimize flight itineraries, deployed via Streamlit.",
