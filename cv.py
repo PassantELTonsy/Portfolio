@@ -65,7 +65,8 @@ def main():
         },
         "Customer Service Expert System": {
             "description": "Replied to FAQs using Prolog.",
-            "image":None
+            "image":None,
+            "video":"Customer Service Support Demo.mp4"
             
         },
         "Shutter Bug Game": {
