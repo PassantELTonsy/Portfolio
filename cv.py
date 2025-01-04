@@ -8,14 +8,52 @@ Original file is located at
 """
 
 import streamlit as st
-def main():
-    st.set_page_config(page_title="Passant El-Tonsy - CV", page_icon=":briefcase:", layout="centered")
+from streamlit_lottie import st_lottie
+import requests
 
+# Function to load animations
+def load_lottieurl(url: str):
+    response = requests.get(url)
+    if response.status_code != 200:
+        return None
+    return response.json()
+
+# Load animation (use any lottie JSON URL for animations)
+lottie_animation = load_lottieurl("https://assets3.lottiefiles.com/packages/lf20_jcikwtux.json")
+
+def main():
+    st.set_page_config(page_title="Passant El-Tonsy - Portfolio", page_icon=":briefcase:", layout="centered")
+
+   st.markdown(
+        """
+        <style>
+        body {
+            background-color: #f5f5f5;
+        }
+        .header-title {
+            font-family: 'Arial';
+            color: #2c3e50;
+            text-align: center;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+    
+    
+    
+    
     # Header Section
     st.title("Passant El-Tonsy")
     st.markdown("**Aspiring Computer Engineer | Passionate about Machine Learning & Computer Vision**")
     st.write("Cairo, Egypt | +20 1158947220 | [passanteltonsy@gmail.com](mailto:passanteltonsy@gmail.com)")
     st.write("[GitHub](https://github.com/PassantELTonsy) | [LinkedIn](https://www.linkedin.com/in/passant-el-tonsy-a52b42230) | [Kaggle](https://www.kaggle.com/passanteltonsy)")
+
+
+
+
+     # Add an animation
+    st_lottie(lottie_animation, height=200, key="coding")
 
     # Skills Section
     st.header("Skills")
