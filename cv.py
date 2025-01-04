@@ -54,19 +54,24 @@ def main():
     projects = {
         "TALKIN’ HANDS": {
             "description": "Converts spoken Arabic into sign language glosses rendered through a 3D avatar.",
+            "image":None
         },
         "Optimized Flight Trip": {
             "description": "Applied AI algorithms to optimize flight itineraries, deployed via Streamlit.",
+            "image":"Optimized flight Trip Poster.png",
             "video": "DEMO.mp4" ,  
            
         },
         "Customer Service Expert System": {
             "description": "Replied to FAQs using Prolog.",
+            "image":None
             
         },
         "Shutter Bug Game": {
             "description": "Developed an interactive 2D game in Processing.",  
-            "video": "ShutterBugDemo.mp4" 
+            "video": "ShutterBugDemo.mp4" ,
+            "image":None
+
         }
     }
 
@@ -75,7 +80,9 @@ def main():
     # Display the description and content (image/video) of the selected project
     if selected_project:
         st.write(f"**{selected_project}:** {projects[selected_project]['description']}")
-         
+        # Show the image if available
+        if projects[selected_project]["image"]:
+            st.image(projects[selected_project]["image"], width=400)  
 
         # Show the video if available
         if projects[selected_project]["video"]:
