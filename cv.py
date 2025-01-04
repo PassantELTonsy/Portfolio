@@ -52,19 +52,25 @@ def main():
     # Projects Section
     st.header("Projects")
     projects = {
-        "TALKIN’ HANDS": "Converts spoken Arabic into sign language glosses rendered through a 3D avatar.",
-        "Optimized Flight Trip": "Applied AI algorithms to optimize flight itineraries, deployed via Streamlit.",
-        "Customer Service Expert System": "Replied to FAQs using Prolog.",
-        "Shutter Bug Game": "Developed an interactive 2D game in Processing."
+        "TALKIN’ HANDS": {
+            "description": "Converts spoken Arabic into sign language glosses rendered through a 3D avatar.",
+        },
+        "Optimized Flight Trip": {
+            "description": "Applied AI algorithms to optimize flight itineraries, deployed via Streamlit.",
+            "video": "DEMO.mp4" ,  
+           
+        },
+        "Customer Service Expert System": {
+            "description": "Replied to FAQs using Prolog.",
+            
+        },
+        "Shutter Bug Game": {
+            "description": "Developed an interactive 2D game in Processing.",  
+            "video": "ShutterBugDemo.mp4" 
+        }
     }
 
-    # Create a selectbox for project titles
-    selected_project = st.selectbox("Select a project", list(projects.keys()))
     
-    # Display the description of the selected project
-    if selected_project:
-        st.write(f"**{selected_project}:** {projects[selected_project]}")
-
     # Courses Section
     st.header("Courses")
     courses = [
