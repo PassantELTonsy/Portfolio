@@ -57,8 +57,13 @@ def main():
         "Customer Service Expert System": "Replied to FAQs using Prolog.",
         "Shutter Bug Game": "Developed an interactive 2D game in Processing."
     }
-    for project, description in projects.items():
-        st.markdown(f"**{project}:** {description}")
+
+    # Create a selectbox for project titles
+    selected_project = st.selectbox("Select a project", list(projects.keys()))
+    
+    # Display the description of the selected project
+    if selected_project:
+        st.write(f"**{selected_project}:** {projects[selected_project]}")
 
     # Courses Section
     st.header("Courses")
