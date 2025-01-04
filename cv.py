@@ -10,7 +10,7 @@ Original file is located at
 import streamlit as st
 def main():
     st.set_page_config(page_title="Passant El-Tonsy - CV", page_icon=":briefcase:", layout="centered")
-    st.image("https://github.com/PassantELTonsy/Portofolio/blob/main/photo_2025-01-03_12-05-21.jpg", width=200)  
+    st.image("photo_2025-01-03_12-05-21.jpg", width=200)  
 
     # Header Section
     st.title("Passant El-Tonsy")
