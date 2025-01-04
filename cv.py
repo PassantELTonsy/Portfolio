@@ -54,7 +54,7 @@ def main():
     projects = {
         "TALKIN’ HANDS": {
             "description": "Converts spoken Arabic into sign language glosses rendered through a 3D avatar.",
-            "image":None
+            "image":None,
             "video":None
         },
         "Optimized Flight Trip": {
