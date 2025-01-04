@@ -10,9 +10,9 @@ Original file is located at
 import streamlit as st
 def main():
     st.set_page_config(page_title="Passant El-Tonsy - CV", page_icon=":briefcase:", layout="centered")
-    image_path = "photo_2025-01-03_12-05-21.jpg"  # Adjust this to your actual path or raw URL
+    image_path = "photo_2025-01-03_12-05-21.jpg"  
 
-    st.image(image_path, width=100, use_column_width=False)
+    st.image(image_path, width=100)
     # Header Section
     st.title("Passant El-Tonsy")
     st.markdown("**Aspiring Computer Engineer | Passionate about Machine Learning & Computer Vision**")
