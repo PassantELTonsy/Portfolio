@@ -16,7 +16,8 @@ def main():
     # Header Section
     st.title("Passant El-Tonsy")
     st.markdown("**Aspiring Computer Engineer | Passionate about Machine Learning & Computer Vision**")
-    st.write("Cairo, Egypt | +20 1158947220 | [passanteltonsy@gmail.com](mailto:passanteltonsy@gmail.com)")
+    st.write("Cairo, Egypt | +20 1158947220 ")
+    st.write("[passanteltonsy@gmail.com](mailto:passanteltonsy@gmail.com)")
     st.write("[GitHub](https://github.com/PassantELTonsy) | [LinkedIn](https://www.linkedin.com/in/passant-el-tonsy-a52b42230) | [Kaggle](https://www.kaggle.com/passanteltonsy)")
 
     # Skills Section
