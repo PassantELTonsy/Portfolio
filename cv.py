@@ -11,7 +11,7 @@ import streamlit as st
 def main():
     st.set_page_config(page_title="Passant El-Tonsy - CV", page_icon=":briefcase:", layout="centered")
     image_path = "cropped_image.png"
-    st.image(image_path)
+    st.image(image_path, width=100)
     
     # Header Section
     st.title("Passant El-Tonsy")
