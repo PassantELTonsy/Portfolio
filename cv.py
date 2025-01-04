@@ -28,8 +28,8 @@ def main():
         "Software & Systems: Operating Systems, Computer Organization, Network Fundamentals",
         "Other: Technical Report Writing, Time Management, Multitasking"
     ]
-  for skill in skills:
-    st.markdown(f"- {skill}")
+    for skill in skills:
+     st.markdown(f"- {skill}")
     
     # Education Section
     st.header("Education")
