@@ -10,24 +10,8 @@ Original file is located at
 import streamlit as st
 def main():
     st.set_page_config(page_title="Passant El-Tonsy - CV", page_icon=":briefcase:", layout="centered")
-    image_path = "photo_2025-01-03_12-05-21.jpg"
-    print(image_path)
-    st.markdown(
-        """
-        <style>
-            .circular-image {{
-                border-radius: 50%;
-                overflow: hidden;
-                width: 200px;
-                height: 200px;
-                object-fit: cover;
-            }}
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
-    st.markdown(f'<img src="{image_path}" class="circular-image">', unsafe_allow_html=True)
-
+    image_path = "cropped_image.png"
+    st.image(image_path)
     
     # Header Section
     st.title("Passant El-Tonsy")
