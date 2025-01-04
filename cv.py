@@ -29,7 +29,7 @@ def main():
         "Other: Technical Report Writing, Time Management, Multitasking"
     ]
   for skill in skills:
-        st.markdown(f"- {skill}")
+    st.markdown(f"- {skill}")
     
     # Education Section
     st.header("Education")
