@@ -12,7 +12,7 @@ def main():
     st.set_page_config(page_title="Passant El-Tonsy - CV", page_icon=":briefcase:", layout="centered")
     image_path = "photo_2025-01-03_12-05-21.jpg"  
 
-    st.image(image_path, width=100)
+    st.image(image_path, width=200)
     # Header Section
     st.title("Passant El-Tonsy")
     st.markdown("**Aspiring Computer Engineer | Passionate about Machine Learning & Computer Vision**")
