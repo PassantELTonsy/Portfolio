@@ -53,10 +53,17 @@ def main():
     # Projects Section
     st.header("Projects")
     projects = {
-        "Optimized Flight Trip": {
-            "description": "Applied AI algorithms to optimize flight itineraries, deployed via Streamlit.",
-            "image":"Optimized flight Trip Poster.png",
-            "video": "DEMO.mp4" ,  
+        "TALKIN’ HANDS": {
+            "description": "Converts spoken Arabic into sign language glosses rendered through a 3D avatar.",
+            "image":None,
+            "video":None
+        },
+        
+        "Event Registeration System": {
+            "description": "The Event Registration System is designed to provide a comprehensive platform for managing event
+related processes efficiently.",
+            "image":"photo_2025-01-05_14-49-08.jpg",
+            "video": None ,  
            
         },
         
