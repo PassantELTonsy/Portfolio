@@ -113,7 +113,7 @@ def main():
     # Courses Section
     st.header("Courses&Certificates")
     courses = [
-        "Data Analysis Challenger Track (Udacity)",
+        "Data Analysis Challenger Track (Udacity)\nhttps://coursera.org/share/3090067024e664421f7daf295017f556",
         "Machine Learning Specialization (Andrew Ng)",
         "HCIA Cloud Computing V5.0 (Huawei ICT)",
         "Network Fundamentals (CompTIA Course, Maspero)",
