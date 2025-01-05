@@ -15,7 +15,7 @@ def main():
     
     # Header Section
     st.title("Passant El-Tonsy")
-    st.markdown("**Aspiring Computer Engineer | Passionate about Machine Learning & Computer Vision**")
+    st.markdown("**Aspiring Computer Engineer | Passionate about Machine Learning & Computer Vision| Data Annotation Specialist | Former EOI'2018**")
     st.write("Cairo, Egypt | +20 1158947220 ")
     st.write("[passanteltonsy@gmail.com](mailto:passanteltonsy@gmail.com)")
     st.write("[GitHub](https://github.com/PassantELTonsy) | [LinkedIn](https://www.linkedin.com/in/passant-el-tonsy-a52b42230) | [Kaggle](https://www.kaggle.com/passanteltonsy)")
@@ -23,11 +23,11 @@ def main():
     # Skills Section
     st.header("Skills")
     skills = [
-        "Programming: C++, Java, Python, MATLAB",
-        "Machine Learning: Pytorch, Deep Learning, NLP",
-        "Data Analysis: Exploratory Data Analysis, Data Cleaning, Data Mining",
-        "Software & Systems: Operating Systems, Computer Organization, Network Fundamentals",
-        "Other: Technical Report Writing, Time Management, Multitasking"
+        "Programming: C++, Java, Python, MATLAB, OOP, Data Structure",
+        "Machine Learning: Neural Network, Pytorch, Deep Learning, NLP,Probability & Statistics , Discrete Mathematics",
+        "Data Analysis: Exploratory Data Analysis, Data Cleaning, Data Mining, Text Preprocessing ",
+        "Software & Systems: Software Engineering, Operating Systems, Computer Organization, Network Fundamentals",
+        "Other: Self Learning, Technical Report Writing, Time Management, Multitasking"
     ]
     for skill in skills:
      st.markdown(f"- {skill}")
