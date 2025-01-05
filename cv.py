@@ -53,17 +53,27 @@ def main():
     # Projects Section
     st.header("Projects")
     projects = {
-        "TALKIN’ HANDS": {
-            "description": "Converts spoken Arabic into sign language glosses rendered through a 3D avatar.",
-            "image":None,
-            "video":None
-        },
         "Optimized Flight Trip": {
             "description": "Applied AI algorithms to optimize flight itineraries, deployed via Streamlit.",
             "image":"Optimized flight Trip Poster.png",
             "video": "DEMO.mp4" ,  
            
         },
+        
+         "Event Registeration System": {
+            "description": "The Event Registration System is designed to provide a comprehensive platform for managing event
+related processes efficiently with 7 subsystems. Check Documentation HERE https://drive.google.com/file/d/1pI7TWLScOuNfzwQFEXDGSs60WIyoQGSi/view?usp=sharing ",
+            "image":"photo_2025-01-05_14-49-08.jpg",
+            "video": None 
+           
+        },
+        
+        "TALKIN’ HANDS": {
+            "description": "Converts spoken Arabic into sign language glosses rendered through a 3D avatar.",
+            "image":None,
+            "video":None
+        },
+       
         "Customer Service Expert System": {
             "description": "Replied to FAQs using Prolog.",
             "image":None,
