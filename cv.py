@@ -61,7 +61,7 @@ def main():
            
         },
         "Event Registeration System": {
-            "description": "The Event Registration System is designed to provide a comprehensive platform for managing events",
+            "description": "The Event Registration System is designed to provide a comprehensive platform for managing events. Check Documentation HERE:https://drive.google.com/file/d/1pI7TWLScOuNfzwQFEXDGSs60WIyoQGSi/view?usp=drive_link",
             "image":"photo_2025-01-05_14-49-08.jpg",
             "video": None ,  
            
