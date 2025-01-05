@@ -111,7 +111,7 @@ def main():
     
     
     # Courses Section
-    st.header("Courses")
+    st.header("Courses&Certificates")
     courses = [
         "Data Analysis Challenger Track (Udacity)",
         "Machine Learning Specialization (Andrew Ng)",
