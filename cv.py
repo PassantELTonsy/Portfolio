@@ -49,6 +49,7 @@ def main():
 
     st.write("**Lead Swimming Coach at Go Swimming Academy (2018-present)**")
     st.markdown("- Provided technical instruction and team management.")
+    st.image("photo_2025-01-05_16-35-36.jpg", width=200)
 
     # Projects Section
     st.header("Projects")
