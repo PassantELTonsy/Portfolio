@@ -62,7 +62,7 @@ def main():
         
          "Event Registeration System": {
             "description": "The Event Registration System is designed to provide a comprehensive platform for managing event
-related processes efficiently with 7 subsystems.",
+             related processes efficiently with 7 subsystems.",
             "image":"photo_2025-01-05_14-49-08.jpg",
             "video": None 
            
