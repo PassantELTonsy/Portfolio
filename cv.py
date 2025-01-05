@@ -23,11 +23,11 @@ def main():
     # Skills Section
     st.header("Skills")
     skills = [
-        "Programming: C++, Java, Python, MATLAB, OOP, Data Structure",
-        "Machine Learning: Neural Network, Pytorch, Deep Learning, NLP,Probability & Statistics , Discrete Mathematics",
-        "Data Analysis: Exploratory Data Analysis, Data Cleaning, Data Mining, Text Preprocessing ",
-        "Software & Systems: Software Engineering, Operating Systems, Computer Organization, Network Fundamentals",
-        "Other: Self Learning, Technical Report Writing, Time Management, Multitasking"
+        "**Programming**: C++, Java, Python, MATLAB, OOP, Data Structure",
+        "**Machine Learning**: Neural Network, Pytorch, Deep Learning, NLP,Probability & Statistics , Discrete Mathematics",
+        "**Data Analysis**: Exploratory Data Analysis, Data Cleaning, Data Mining, Text Preprocessing ",
+        "**Software & Systems**: Software Engineering, Operating Systems, Computer Organization, Network Fundamentals",
+        "**Soft Skills**: Self Learning, Technical Report Writing, Time Management, Multitasking"
     ]
     for skill in skills:
      st.markdown(f"- {skill}")
