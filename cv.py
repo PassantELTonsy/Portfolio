@@ -115,14 +115,14 @@ def main():
     courses = [
     "**Data Analysis Challenger Track (Udacity)**",
     "**Machine Learning Specialization (Andrew Ng)**\nhttps://coursera.org/share/a97b04775f9d1d501fee1292f38ab285",
-    "**Advanced Learning Algorithms**\nhttps://coursera.org/share/3090067024e664421f7daf295017f556",
+    "**Advanced Learning Algorithms**\n https://coursera.org/share/3090067024e664421f7daf295017f556",
     "**HCIA Cloud Computing V5.0 (Huawei ICT)**\nhttps://drive.google.com/file/d/10xjtHSDiFPDHQVtj2-UJa8yhc7pBnG5N/view?usp=sharing",
     "**Network Fundamentals (CompTIA Course, Maspero)**\nhttps://drive.google.com/file/d/1SQgRn047nTbwnAI3Md3XvWa1WoPQRK_T/view?usp=sharing",
     "**NLP Workshop (People of Data)**"
 ]
 
     for course in courses:
-        parts = course.split('\n')  # This line must be indented properly
+        parts = course.split('\n') 
         if len(parts) == 2:
                 st.markdown(f"- {parts[0]}\n  [{parts[1]}]({parts[1]})")
         else:
