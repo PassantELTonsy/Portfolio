@@ -122,7 +122,11 @@ def main():
 ]
 
     for course in courses:
-        st.markdown(f"- {course}")
+    parts = course.split('\n')
+    if len(parts) == 2:
+        st.markdown(f"- {parts[0]}\n  [{parts[1]}]({parts[1]})")
+    else:
+        st.markdown(f"- {parts[0]}")
 
     # Languages & Extracurricular Activities
     st.header("Languages")
