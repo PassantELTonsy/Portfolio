@@ -60,13 +60,7 @@ def main():
            
         },
         
-         "Event Registeration System": {
-            "description": "The Event Registration System is designed to provide a comprehensive platform for managing event
-             related processes efficiently with 7 subsystems.",
-            "image":"photo_2025-01-05_14-49-08.jpg",
-            "video": None 
-           
-        },
+         
         
         "TALKIN’ HANDS": {
             "description": "Converts spoken Arabic into sign language glosses rendered through a 3D avatar.",
