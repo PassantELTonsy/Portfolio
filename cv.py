@@ -56,7 +56,7 @@ def main():
     projects = {
         
         "Optimized Flight Trip": {
-            "description": "This Project explores the application of AI searching algorithms e.g. BFS-DFS-A*-Greedy-UCS-IDS-DLS in optimizing flight trip planning. By harnessing the power of AI, we aim to develop a system capable of efficiently navigating complex flight networks to identify the most cost-effective and time-efficient routes. This project not only delves into the technical aspects of AI algorithms but also examines their real-world implications for travellers, airlines, and the broader travel industry.",
+            "description": "This Project explores the application of searching algorithms e.g. BFS-DFS-A*-Greedy-UCS-IDS-DLS in optimizing flight trip planning. By harnessing the power of AI, we aim to develop a system capable of efficiently navigating complex flight networks to identify the most cost-effective and time-efficient routes. This project not only delves into the technical aspects of AI algorithms but also examines their real-world implications for travellers, airlines, and the broader travel industry.",
             "image":"Optimized flight Trip Poster.png",
             "video": "DEMO.mp4" ,  
            
