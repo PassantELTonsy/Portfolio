@@ -73,8 +73,8 @@ def main():
         "TALKIN’ HANDS": {
             "description": "Converts spoken Arabic into sign language glosses rendered through a 3D avatar.",
             "image":None,
-            "video":None
-        },
+            "video":"DEMO_Talkin' Hands.mp4"
+            },
        
         "Customer Service Expert System": {
             "description": "Replied to FAQs using Prolog.",
@@ -119,6 +119,7 @@ def main():
     "**Advanced Learning Algorithms**\nhttps://coursera.org/share/3090067024e664421f7daf295017f556",
     "**HCIA Cloud Computing V5.0 (Huawei ICT)**\nhttps://drive.google.com/file/d/10xjtHSDiFPDHQVtj2-UJa8yhc7pBnG5N/view?usp=sharing",
     "**Network Fundamentals (CompTIA Course, Maspero)**\nhttps://drive.google.com/file/d/1SQgRn047nTbwnAI3Md3XvWa1WoPQRK_T/view?usp=sharing",
+    "**AI-Finance Hackathon**\nhttps://drive.google.com/file/d/1JMcD3_8HQM5wU3LDbYztdE2YNSKqqwQw/view?usp=sharing",
     "**NLP Workshop (People of Data)**"
 ]
 
