@@ -73,7 +73,7 @@ def main():
         "TALKIN’ HANDS": {
             "description": "Converts spoken Arabic into sign language glosses rendered through a 3D avatar.",
             "image":None,
-            "video":"DEMO_Talkin Hands.mp4"
+            "video":"DEMO Talkin Hands.mp4"
             },
        
         "Customer Service Expert System": {
