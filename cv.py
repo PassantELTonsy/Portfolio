@@ -24,7 +24,7 @@ def main():
     st.header("Achievements")
     st.markdown("- **Top 20 Finalist** in Dell Technologies *Envision the Future* Competition")
     st.markdown("- **2nd Place Winner** at Benha University's 4th Annual Conference on Applied Science for Graduation Project")
-    st.image("photo_2025-05-11_13-40-19.jpg", width=400, caption="Benha University Applied Science Conference")
+    st.image("photo_2025-05-11_13-40-19.jpg", width=400)
 
     # Skills Section
     st.header("Skills")
