@@ -20,6 +20,13 @@ def main():
     st.write("[passanteltonsy@gmail.com](mailto:passanteltonsy@gmail.com)")
     st.write("[GitHub](https://github.com/PassantELTonsy) | [LinkedIn](https://www.linkedin.com/in/passant-el-tonsy-a52b42230) | [Kaggle](https://www.kaggle.com/passanteltonsy)")
 
+    # Achievements Section
+    st.header("Achievements")
+    st.markdown("- **Top 20 Finalist** in Dell Technologies *Envision the Future* Competition")
+    st.markdown("- **2nd Place Winner** at Benha University's 4th Annual Conference on Applied Science for Graduation Project")
+
+
+    
     # Skills Section
     st.header("Skills")
     skills = [
