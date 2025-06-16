@@ -42,7 +42,7 @@ def main():
     st.header("Education")
     st.write("**Faculty of Engineering at Shoubra - Benha University**")
     st.write("B.Sc. in Computer Engineering 2020-2025")
-    st.write("Current GPA: 2.83")
+    st.write("Current GPA: 2.92")
 
     # Experience Section
     st.header("Experience")
