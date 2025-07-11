@@ -56,7 +56,6 @@ def main():
     st.markdown("""
     **Testing and Automation Trainee – 2025, Algoriza**  
     - Trained on Software Testing Life Cycle (STLC), bug reporting, and test case design using ISTQB standards v4.0.  
-    - Practiced manual testing and exploratory testing on real projects using Jira and Postman.
     """)
 
     st.write("**Team Leader (2024-2025)**")
