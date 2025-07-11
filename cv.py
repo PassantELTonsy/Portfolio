@@ -46,6 +46,13 @@ def main():
 
     # Experience Section
     st.header("Experience")
+    st.write("**Coding Instructor DEMI Summer Project 2025, ischool**")
+    st.markdown("o Delivered engaging lessons in programming fundamentals to 4th-grade students using a projectbased learning approach.")
+    st.markdown("o Help foster a love for technology and problem-solving between 30k students in early-stage.")    
+    
+    st.write("**Testing and Automation Trainee 2025, Algoriza **")
+    st.markdown("- Trained on software testing life cycle (STLC), bug reporting, and test case design using ISTQB standards v4.0.")
+    
     st.write("**Team Leader (2024-2025)**")
     st.markdown("- Developed a project timeline and milestones for ML-based projects.")
     st.markdown("- Proposed solutions in Speech Recognition, NLP, and Rendering Avatars.")
