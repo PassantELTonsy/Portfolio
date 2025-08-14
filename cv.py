@@ -42,20 +42,20 @@ def main():
     st.header("Education")
     st.write("**Faculty of Engineering at Shoubra - Benha University**")
     st.write("B.Sc. in Computer Engineering 2020-2025")
-    st.write("Current GPA: 2.92")
+    st.write("Current GPA: 3.00")
 
     # Experience Section
     st.header("Experience")
 
     st.markdown("""
     **Coding Instructor – DEMI Summer Project 2025, iSchool**  
-    - Delivered engaging lessons in programming fundamentals to 4th-grade students using a project-based learning approach.  
+    - Delivered engaging lessons in programming fundamentals to 4th-grade students using a project-based learning approach achieving over 90% in quality review as one of the best tutors.  
     - Helped foster a love for technology and problem-solving among ~30,000 students in early stages.
     """)
     
     st.markdown("""
     **Testing and Automation Trainee – 2025, Algoriza**  
-    - Trained on Software Testing Life Cycle (STLC), bug reporting, and test case design using ISTQB standards v4.0.  
+    - Trained on Software Testing Life Cycle (STLC), bug reporting, test case design using ISTQB standards v4.0 and API Testing using Postman.  
     """)
 
     st.write("**Team Leader (2024-2025)**")
@@ -65,7 +65,7 @@ def main():
     st.write("**Search Quality Rater at RWSGroup (2024)**")
     st.markdown("- Evaluated search results and annotated data.")
 
-    st.write("**Lead Swimming Coach at Go Swimming Academy (2018-present)**")
+    st.write("**Head Swimming Coach at Go Swimming Academy (2018-present)**")
     st.markdown("- Provided technical instruction and team management.")
     st.image("photo_2025-01-05_16-35-36.jpg", width=400)
 
@@ -79,7 +79,7 @@ def main():
             "video": "DEMO.mp4" ,  
            
         },
-        "Event Registeration System": {
+        "Event Registration System": {
             "description": "The Event Registration System is designed to provide a comprehensive platform for managing events. Check Documentation HERE:https://drive.google.com/file/d/1pI7TWLScOuNfzwQFEXDGSs60WIyoQGSi/view?usp=drive_link",
             "image":"photo_2025-01-05_14-49-08.jpg",
             "video": None ,  
