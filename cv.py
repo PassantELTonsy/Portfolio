@@ -46,7 +46,11 @@ def main():
 
     # Experience Section
     st.header("Experience")
-
+    st.markdown(""" 
+    **FO Engineer, Huawei**
+    - Monitoring IT infrastructure using Huawei systems to ensure high service availability, fault
+      detection, troubleshooting and escalation.
+      """)
     st.markdown("""
     **Coding Instructor – DEMI Summer Project 2025, iSchool**  
     - Delivered engaging lessons in programming fundamentals to 4th-grade students using a project-based learning approach achieving over 90% in quality review as one of the best tutors.  
