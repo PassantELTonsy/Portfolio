@@ -157,9 +157,10 @@ def main():
     st.markdown("- English, German, French")
 
     st.header("Extracurricular Activities")
+    st.write("**AI Presenter, Google Gemini Academy Event 2025**")
+    st.markdown("- Delivered a technical presentation on Google Gemini’s multimodal AI features, deep research mode and educational applications also simplified advanced AI concepts for an audience from multiple
+    engineering departments.")
     st.write("**Vice President at East Nasr-City Student Union (2015-2018)**")
-    st.markdown("- Managed website design, content, and SEO.")
-    st.markdown("- Worked on marketing, branding, and logo design.")
 
 
 if __name__ == "__main__":
